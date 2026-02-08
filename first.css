@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Molle:ital@1&family=Zeyada&display=swap');
+body{
+    background: pink;
+}
+
+.img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 580;
+    font-style: normal;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-family: "Zeyada", cursive;
+    font-size: 80px;
+    font-weight: 2000;
+    stroke: 2px black ;
+
+}
+
+.click{
+    background-color: #fff;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px red;
+    margin-left: 35%;
+}
+
+.click a {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px 10px 2px black;
+    
+  
+}
+
